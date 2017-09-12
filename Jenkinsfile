@@ -1,6 +1,6 @@
   env.DOCKERHUB_USERNAME = 'buildmystartupio'
 
-  node("ip-172-31-13-196.us-west-1.compute.internal") {
+  node("docker-test") {
     checkout scm
 
     stage("Unit Test") {
